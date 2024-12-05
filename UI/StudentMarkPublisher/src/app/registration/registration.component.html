@@ -1,0 +1,41 @@
+
+
+  <div class="wrapper">
+    <h2>Registration</h2>
+    <form #registerForm="ngForm" (ngSubmit)="register()" novalidate>
+      <div *ngIf="message" class="error-container">
+        <i class="fas fa-exclamation-circle"></i> 
+        <span>{{message}}</span>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter username" [(ngModel)]="model.userName" name="userName" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your email" [(ngModel)]="model.email" name="email" required>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Create password" [(ngModel)]="model.password" name="password" required>
+      </div>
+      <div class="input-box">
+        <input type="rePassword" placeholder="confirm password" [(ngModel)]="model.rePassword" name="rePassword" required>
+      </div>
+
+       <!-- Role selection: Teacher or Parent -->
+       <div class=" role-selection">
+        <label>Choose your role:</label>
+        <div class="role-options">
+          <button type="button" class="role-btn" [class.selected]="model.role === 'Teacher'" (click)="model.role = 'Teacher'">Teacher</button>
+          <button type="button" class="role-btn" [class.selected]="model.role === 'Parent'" (click)="model.role = 'Parent'">Parent</button>
+        </div>
+        <div *ngIf="!model.role && registerForm.touched" class="error-message">
+          Role is required.
+        </div>
+      </div>
+      <div class="input-box button">
+        <input type="Submit" value="Register Now" [disabled]="registerForm.invalid">
+      </div>
+      <div class="text">
+        <h3>Already have an account?  <a [routerLink]="['/']" routerLinkActive="router-link-active">Login now</a></h3>
+      </div>
+    </form>
+  </div>

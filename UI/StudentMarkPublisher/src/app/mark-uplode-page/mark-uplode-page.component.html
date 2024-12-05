@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" [routerLink]="['/Result']" routerLinkActive="router-link-active">Result</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto ">
+            <a class="nav-item nav-link active mr-3" [routerLink]="['/Result']" routerLinkActive="router-link-active" >Home</a>
+            <a class="nav-item nav-link active mr-3" [routerLink]="['/Markuplode']" routerLinkActive="router-link-active" >Mark Uplode</a>
+            <a class="nav-item nav-link active btn btn-danger ml-3" [routerLink]="['/']" routerLinkActive="router-link-active"  >Logout</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+<div class="container mt-5">
+    <h2>Upload Marks</h2>
+
+    
+    <form #markForm="ngForm" (ngSubmit)="submitMarks()" novalidate>
+        <!-- Select Student -->
+        <div class="input-box form-group">
+            <label for="studentName">Student Name:</label>
+            <input class="studentName" type="text" id="studentName" placeholder="Enter student name" [(ngModel)]="model.studentName" name="studentName" required />
+        </div>
+
+        
+        <div class="form-group">
+            <label for="batch">Batch</label>
+            <select id="batch" [(ngModel)]="model.batch" name="batch" required>
+                <option value="" disabled selected>Select Batch</option>
+                <option *ngFor="let batch of batches" [value]="batch">{{ batch }}</option>
+            </select>
+            <div *ngIf="!model.batch && markForm.submitted" class="error-message">
+                Batch is required.
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="parent">Parent</label>
+            <select id="parent"[(ngModel)]="model.parent" name="parent" required>
+                <option value="" disabled selected>Select Parent</option>
+                <option *ngFor="let p of parents" [value]="p.userName">{{ p.userName }}</option>
+            </select>
+            <div *ngIf="!model.parent && markForm.submitted" class="error-message">
+                Parent is required.
+            </div>
+        </div>
+
+       
+       <div class="input-box">
+        <label for="marks">Enter Marks:</label>
+        <input type="number" id="marks" [(ngModel)]="model.marks" name="marks"  placeholder="Enter marks" required />
+        <div *ngIf="model.marks < 0 || model.marks > 100" class="error-message">
+            Marks must be between 0 and 100.
+        </div>
+    </div>
+        
+        <div class="form-group">
+            <button type="submit" [disabled]="markForm.invalid">Submit Marks</button>
+        </div>
+    </form>
+</div>

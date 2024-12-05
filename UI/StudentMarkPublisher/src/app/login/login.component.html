@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+<div class="wrapper">
+    <div class="title"><span>Login Form</span></div>    
+    <form #loginForm="ngForm" (ngSubmit)="login()" novalidate>
+        <div *ngIf="message" class="error-container">
+            <i class="fas fa-exclamation-circle"></i> 
+            <span>{{message}}</span>
+          </div>
+      <div class="row">
+
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="User Name" [(ngModel)]="model.userName" name="userName" #userName="ngModel" required />
+        <div *ngIf="userName.invalid && userName.touched" class="error-message">
+            User Name is required.
+          </div>
+      </div>
+      <div class="row">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Password" [(ngModel)]="model.password" name="password" #password="ngModel" required />
+        <div *ngIf="password.invalid && password.touched" class="error-message">
+            
+            <div *ngIf="password.errors?.['required']">Password is required.</div>
+            </div>
+      </div>
+
+      <div class=" role-selection">
+        <label>Choose your role:</label>
+        <div class="role-options">
+          <button type="button" class="role-btn" [class.selected]="model.role === 'Teacher'" (click)="model.role = 'Teacher'">Teacher</button>
+          <button type="button" class="role-btn" [class.selected]="model.role === 'Parent'" (click)="model.role = 'Parent'">Parent</button>
+        </div>
+        <div *ngIf="!model.role && (userName.touched || password.touched)" class="error-message">
+            Role is required.
+        </div>
+    </div>
+
+      <div class="row button">
+        <input type="submit" value="Login"  />
+      </div>
+      <div class="signup-link">Not a member? <a [routerLink]="['/Register']" routerLinkActive="router-link-active"  >Signup now</a></div>
+      
+    </form>
+  </div>
+  

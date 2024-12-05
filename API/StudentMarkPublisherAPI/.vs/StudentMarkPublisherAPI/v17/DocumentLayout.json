@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|f:\\shammas\\task\\api\\studentmarkpublisherapi\\studentmarkpublisherapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|solutionrelative:studentmarkpublisherapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|f:\\shammas\\task\\api\\studentmarkpublisherapi\\studentmarkpublisherapi\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|solutionrelative:studentmarkpublisherapi\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|f:\\shammas\\task\\api\\studentmarkpublisherapi\\studentmarkpublisherapi\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|solutionrelative:studentmarkpublisherapi\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|f:\\shammas\\task\\api\\studentmarkpublisherapi\\studentmarkpublisherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|solutionrelative:studentmarkpublisherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|f:\\shammas\\task\\api\\studentmarkpublisherapi\\studentmarkpublisherapi\\model\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|solutionrelative:studentmarkpublisherapi\\model\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|f:\\shammas\\task\\api\\studentmarkpublisherapi\\studentmarkpublisherapi\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3102B8B-53FF-47CE-9AA8-4236A74686DF}|StudentMarkPublisherAPI\\StudentMarkPublisherAPI.csproj|solutionrelative:studentmarkpublisherapi\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Program.cs",
+              "RelativeDocumentMoniker": "StudentMarkPublisherAPI\\Program.cs",
+              "ToolTip": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Program.cs",
+              "RelativeToolTip": "StudentMarkPublisherAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:27:37.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Model\\Teacher.cs",
+              "RelativeDocumentMoniker": "StudentMarkPublisherAPI\\Model\\Teacher.cs",
+              "ToolTip": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Model\\Teacher.cs",
+              "RelativeToolTip": "StudentMarkPublisherAPI\\Model\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:42:05.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Model\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "StudentMarkPublisherAPI\\Model\\LoginViewModel.cs",
+              "ToolTip": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Model\\LoginViewModel.cs",
+              "RelativeToolTip": "StudentMarkPublisherAPI\\Model\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:32:14.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "StudentMarkPublisherAPI\\Data\\UserDbContext.cs",
+              "ToolTip": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "StudentMarkPublisherAPI\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:57:22.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Model\\UserDto.cs",
+              "RelativeDocumentMoniker": "StudentMarkPublisherAPI\\Model\\UserDto.cs",
+              "ToolTip": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Model\\UserDto.cs",
+              "RelativeToolTip": "StudentMarkPublisherAPI\\Model\\UserDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:59:18.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "StudentMarkPublisherAPI\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\shammas\\task\\API\\StudentMarkPublisherAPI\\StudentMarkPublisherAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "StudentMarkPublisherAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAEwIoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:54:15.001Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
