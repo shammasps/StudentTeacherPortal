@@ -1,0 +1,2 @@
+# StudentTeacherPortal
+ A teacher teaching computer science in an IT college takes classes for BSc Computer Science, BCA and BTech. There are 10 students in each batch. The first semester result is declared online. The teacher uploads the marks of all the students in the teacher's portal and each parent sees their children's marks in the Parent's portal.  NB:The parent has a student studying in all three batches.  Please submit parent and teacher portals.
